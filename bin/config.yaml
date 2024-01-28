@@ -1,5 +1,5 @@
 # ah
-name: Zissou
+name: Quark
 
 # basic
 verbose: true
@@ -15,9 +15,9 @@ backup: true
 
 # sql
 hostname: 127.0.0.1
-database: xidb
-username: root
-password: ????
+database: clayxidb
+username: clayxi
+password: blaze
 fail: true
 
 # broker
@@ -25,8 +25,8 @@ restock: 3600
 tick: 30
 
 # scrub
-server: bahamut
-threads: -1
+server: asura
+threads: 8
 itemids: []
 stock01: 5
 stock12: 5

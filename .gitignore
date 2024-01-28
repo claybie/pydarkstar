@@ -56,3 +56,5 @@ target/
 # PyCharm
 .idea
 
+# Personal config
+bin/config.yaml
