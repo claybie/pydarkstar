@@ -1,0 +1,3 @@
+[submodule "bin/database"]
+	path = bin/database
+	url = https://github.com/EDGECOM666/FFXIAHBOT_CSV
