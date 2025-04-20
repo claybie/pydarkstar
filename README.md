@@ -1,50 +1,33 @@
-# [pydarkstar][ghWeb]
+# [FFXI Auction House Bot][ghWeb]
 
-A set of command-line tools for interacting with a Darkstar server.
+A set of command-line tools for interacting with the auction house of a private FFXI server.
 
-* The pydarkstar code can be found [here][ghRep].
-* The pydarkstar website can be found [here][ghWeb].
-* The **Setup** instructions can be found [here][ghSet] (start here!)
-* The **Usage** instructions can be found [here][ghUse].
+Please see the [docs][ghWeb] for more information.
 
 ---
 
-Please note that this project was developed for the original [darkstar][DARKS] server.
-That project was archived and forked a few times.
-This project may work with the forks if the AH implementation remains unchanged.
+This project was originally developed for the [Darkstar][DSP] server, but it will also work with new variations below.
 
-| Project             | Status  |
-|---------------------|---------|
-| [darkstar][DARKS]   | defunct |
-| [topaz][TOPAZ]      | defunct |
-| [topaz-next][TNEXT] | defunct |
+| FFXI Server Project | Status  |
+| ------------------- | ------- |
+| [Darkstar][DSP]     | defunct |
+| [Topaz][TPZ]        | defunct |
+| [Topaz-next][TPZN]  | defunct |
 | [LandSandBoat][LSB] | current |
 
 ---
 
 ## [Features][ghWeb]
 
-* Create Auction House item database with prices.
-* Detailed control over the buying and selling of items.
-* Buy items put up for sale by players.
-* Stock the Auction House with items for players to buy.
+- Create a database of item prices by scraping ffxiah.com.
+- Start a bot that can buy items put up for sale by players.
+- The bot can also stock the auction house with items for players to buy.
 
 ---
 
-Here are some links to help you learn how to use a command line.
-
-* [Command Line Interface][clAll]
-* [Windows Batch Scripting][clWin]
-* [Linux Command Line][clLin]
-
-[clAll]: https://en.wikipedia.org/wiki/Command-line_interface
-[clWin]: https://en.wikibooks.org/wiki/Windows_Batch_Scripting
-[clLin]: https://en.wikibooks.org/wiki/Linux_For_Newbies/Command_Line
-[ghRep]: https://github.com/AdamGagorik/pydarkstar
-[ghWeb]: http://adamgagorik.github.io/pydarkstar
-[ghSet]: http://adamgagorik.github.io/pydarkstar/markdown/setup.html
-[ghUse]: http://adamgagorik.github.io/pydarkstar/markdown/usage.html
-[DARKS]: https://github.com/DarkstarProject/darkstar
-[TOPAZ]: https://github.com/project-topaz/topaz
-[TNEXT]: https://github.com/topaz-next/topaz
+[ghRep]: https://github.com/AdamGagorik/ffxiahbot
+[ghWeb]: http://adamgagorik.github.io/ffxiahbot
+[DSP]: https://github.com/DarkstarProject/darkstar
+[TPZ]: https://github.com/project-topaz/topaz
+[TPZN]: https://github.com/topaz-next/topaz
 [LSB]: https://github.com/LandSandBoat/server
